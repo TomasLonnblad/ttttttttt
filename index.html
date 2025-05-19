@@ -1,10 +1,27 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Working with elements</title>
-  </head>
+<html>
   <body>
-    <div id="div1">The text above has been created dynamically.</div>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/jsx">
+  const app = document.getElementById("app")
+ 
+function HomePage() {
+  // ...
+ 
+  function handleClick() {
+    console.log("increment like count")
+  }
+ 
+  return (
+    <div>
+      {/* ... */}
+	  <button onClick={}>Like</button>
+    </div>
+     )
+   }
+</script>
   </body>
 </html>
